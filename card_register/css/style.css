@@ -1,0 +1,56 @@
+body{
+    font-family: Tahoma, sans-serif;
+}
+.form{
+	border: 5px solid #2727d9;
+	padding: 30px 20px;
+}
+.section{
+	padding: 30px 0;
+}
+.form input{
+	margin-bottom: 12px;
+}
+.text-header, .section-header{
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: 900;
+}
+.header{
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 60px auto;
+	font-weight: 900;
+}
+.header span{
+	display: block;
+}
+.bttn{
+	margin: 12px auto;
+	background-color: #2727d9;
+}
+.feature{
+	margin: 60px auto;
+}
+.feature p{
+	margin-top: 20px;
+}
+.video{
+	margin-bottom: 30px;
+}
+.feature-box{
+	height: 160px;
+}
+.person{
+	margin-bottom: 20px;
+	height: 213px;
+}
+.clients{
+	overflow: hidden;
+	margin-top: 70px;
+}
+.person img{
+	object-fit: cover;
+	width: 200px;
+	height: 200px;
+}

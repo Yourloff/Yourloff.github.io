@@ -1,0 +1,62 @@
+* {
+  font-family: Arial, sans-serif;
+}
+.card-block {
+  border: 1px solid #333;
+  text-align: center;
+  margin: 100px 524px;
+  padding: 0 26px;
+  height: 370px;
+}
+.card-block input {
+  height: 30px;
+  width: 260px;
+}
+.label {
+  margin-top: -4px;
+  color: white;
+  background-color: #01b3b3;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 150px;
+  text-align: center;
+  word-spacing: 2px;
+  margin-bottom: 30px;
+  margin-left: 1px;
+}
+.label p {
+  padding: 4px;
+}
+.email-block,
+.password-block,
+.confirm_password-block {
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+}
+.email-block p,
+.password-block p,
+.confirm_password-block p {
+  display: inline-block;
+}
+.email-block span,
+.password-block span,
+.confirm_password-block span {
+  color: #01b3b3;
+}
+.email-block {
+  margin-bottom: 9px;
+}
+.password-block {
+  margin-bottom: 11px;
+}
+.confirm_password-block {
+  margin-bottom: 28px;
+}
+button {
+  background-color: #01b3b3;
+  color: white;
+  font-weight: bold;
+  padding: 10px 64px;
+}

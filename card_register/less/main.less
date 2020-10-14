@@ -1,0 +1,58 @@
+@main-color: #01b3b3;
+*{
+	font-family: Arial, sans-serif;
+}
+.card-block{
+	border: 1px solid #333;
+	text-align: center;
+	margin: 100px 524px;
+	padding: 0 26px;
+	height: 370px;
+	input{
+		height: 30px;
+		width: 260px;
+	}
+}
+.label{
+	margin-top: -4px;
+	color: white;
+	background-color: @main-color;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 150px;
+	text-align: center;
+	word-spacing: 2px;
+	margin-bottom: 30px;
+	margin-left: 1px;
+	p{
+		padding: 4px;
+	}
+}
+.email-block, .password-block, .confirm_password-block{
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+	p{
+		display: inline-block;
+	}
+	span{
+		color: @main-color;
+	}
+}
+.email-block{
+	margin-bottom: 9px;
+}
+.password-block{
+	margin-bottom: 11px;
+}
+.confirm_password-block{
+	margin-bottom: 28px;
+}
+
+button{
+	background-color: @main-color;
+	color: white;
+	font-weight: bold;
+	padding: 10px 64px;
+}
