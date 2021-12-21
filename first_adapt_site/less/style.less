@@ -203,25 +203,32 @@ button, input, a, .main-form-control{
 
 /*2 блок преимущества работы с нами*/
 .work{
-  
+
   h2{
   .boldProxima();
-  margin-bottom: 7rem;
+  margin-bottom: 5rem;
 }
 &-item{
   text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 340px;
+  border: solid 1px black;
+
+  &-img{
+    width: 25%;
+  }
   p{
+    flex-basis: 20%;
+    margin-top: 1.5rem;
     .boldProxima();
     font-size: 1.25rem;
-    margin-bottom: 2.6rem;
   }
 
   span{
     font-size: 1rem;
-  }
-
-  img{
-    margin-bottom: 2rem;
+    display: block;
   }
 }
 }
