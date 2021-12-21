@@ -176,7 +176,6 @@ a:focus,
       -ms-flex-direction: column;
           flex-direction: column;
   height: 340px;
-  border: solid 1px black;
 }
 .work-item-img {
   width: 25%;
