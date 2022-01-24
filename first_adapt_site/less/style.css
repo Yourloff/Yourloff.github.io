@@ -142,7 +142,6 @@ a:focus,
 }
 .main-form label {
   position: absolute;
-  left: 50%;
   transform: translateX(-50%) translateY(-50%);
   padding: 0.5rem;
   font-size: 1.3rem;
