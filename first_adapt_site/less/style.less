@@ -121,10 +121,11 @@ button, input, a, .main-form-control{
   height: 70px;
 
   .phone-link{
-    font-size: 20px;
+    
      a{
         text-decoration: none;
         color: @text-color;
+        font-size: 2rem;
       }
     }
   }
@@ -196,7 +197,6 @@ button, input, a, .main-form-control{
 
       label{
         position: absolute;
-        //left: 50%;
         transform: translateX(-50%) translateY(-50%);
         padding: 0.5rem;
         font-size: 1.3rem;
@@ -225,12 +225,13 @@ button, input, a, .main-form-control{
       small{
         display: block;
         text-align: center;
-        font-size: 0.6rem;
+        font-size: 1.5rem;
       }
       margin-bottom: 2rem;
     }
     &-tagging{
-      font-size: 0.75rem;
+      text-align: left;
+      font-size: 1.4rem;
     }
 
     .wrap
@@ -247,6 +248,62 @@ button, input, a, .main-form-control{
     }
 }
 
+.features{
+  &-block{
+    text-align: center;
+  }
+  h3{
+    .boldProxima();
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+  p{
+    display: inline-block;
+    width: 80%;
+    font-size: 1.4rem;
+  }
+  &-img{
+    height: 8rem;
+    margin-bottom: 3rem;
+    img{
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+.arrow{
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+}
+.prev{
+  left: 0;
+  background: url('../img/left-arrow.svg') center no-repeat;
+  background-size: 70%;
+}
+.next{
+  right: 0;
+  background: url('../img/right-arrow.svg') center no-repeat;
+  background-size: 70%;
+}
+
+/* Typography */
+section{
+  padding: 10rem 0;
+}
+.section-header{
+  margin: 2rem 0 10rem;
+  .boldProxima();
+  font-size: 3.6rem;
+  text-align: center;
+}
+
+
 @media (max-width: 991px) {
 
   .main{
@@ -254,10 +311,10 @@ button, input, a, .main-form-control{
 
     .phone-link{
       text-align: center;
+      margin-top: 2rem;
     }
     &-content{
       margin-top: 3rem;
-      
     }
     &-title{
       padding-bottom: 3rem;
@@ -271,7 +328,10 @@ button, input, a, .main-form-control{
     text-align: center;
 
     .phone-link{
-      font-size: 1.3rem;
+      a{
+        font-size: 1.9rem;
+      }
+      
     }
     .wrap-block{
       text-align: center;

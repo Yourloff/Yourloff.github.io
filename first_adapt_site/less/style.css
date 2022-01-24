@@ -72,12 +72,10 @@ a:focus,
   padding-top: 20px;
   height: 70px;
 }
-.header .phone-link {
-  font-size: 20px;
-}
 .header .phone-link a {
   text-decoration: none;
   color: #1a1820;
+  font-size: 2rem;
 }
 /*Главный экран*/
 .main {
@@ -169,10 +167,11 @@ a:focus,
 .main-form small {
   display: block;
   text-align: center;
-  font-size: 0.6rem;
+  font-size: 1.5rem;
 }
 .main-tagging {
-  font-size: 0.75rem;
+  text-align: left;
+  font-size: 1.4rem;
 }
 .main .wrap {
   display: table;
@@ -184,12 +183,63 @@ a:focus,
   vertical-align: middle;
   text-align: right;
 }
+.features-block {
+  text-align: center;
+}
+.features h3 {
+  font-family: 'ProximaNovaBold';
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.features p {
+  display: inline-block;
+  width: 80%;
+  font-size: 1.4rem;
+}
+.features-img {
+  height: 8rem;
+  margin-bottom: 3rem;
+}
+.features-img img {
+  display: block;
+  margin: 0 auto;
+}
+.arrow {
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+}
+.prev {
+  left: 0;
+  background: url('../img/left-arrow.svg') center no-repeat;
+  background-size: 70%;
+}
+.next {
+  right: 0;
+  background: url('../img/right-arrow.svg') center no-repeat;
+  background-size: 70%;
+}
+/* Typography */
+section {
+  padding: 10rem 0;
+}
+.section-header {
+  margin: 2rem 0 10rem;
+  font-family: 'ProximaNovaBold';
+  font-size: 3.6rem;
+  text-align: center;
+}
 @media (max-width: 991px) {
   .main {
     background-position: top right;
   }
   .main .phone-link {
     text-align: center;
+    margin-top: 2rem;
   }
   .main-content {
     margin-top: 3rem;
@@ -203,8 +253,8 @@ a:focus,
   .header {
     text-align: center;
   }
-  .header .phone-link {
-    font-size: 1.3rem;
+  .header .phone-link a {
+    font-size: 1.9rem;
   }
   .header .wrap-block {
     text-align: center;
