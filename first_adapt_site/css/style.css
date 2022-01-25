@@ -53,7 +53,7 @@ a:focus,
   font-size: 1rem;
   text-transform: uppercase;
   border: none;
-  background-color: #FFAF00;
+  background-color: #ffaf00;
   color: white;
   transition: all 0.2s;
 }
@@ -80,7 +80,7 @@ a:focus,
 /*Главный экран*/
 .main {
   padding: 3rem 0 5rem;
-  background: #fff url(../img/main-bg.jpg) no-repeat center center fixed;
+  background: #ffffff url(../img/main-bg.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 .main-content {
@@ -104,7 +104,7 @@ a:focus,
   color: white;
   padding: 3rem 5rem;
   text-align: center;
-  background-color: #00B600;
+  background-color: #00b600;
 }
 .main-work strong {
   font-size: 3rem;
@@ -148,9 +148,9 @@ a:focus,
 .main-form-button {
   display: block;
   width: 100%;
-  background-color: #FFAF00;
+  background-color: #ffaf00;
   color: white;
-  padding: 1.1rem 2rem;
+  padding: 1.1rem 2.0rem;
   text-transform: uppercase;
   margin-bottom: 1rem;
   font-weight: 600;
