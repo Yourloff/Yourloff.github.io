@@ -11,3 +11,5 @@
 [Адаптивный сайт(bootstrap)](https://yourloff.github.io/first_adapt_site/ "BootstrapSite") - Вёрстка сайта с помощью Bootstrap.
 
 [Паралакс эффект](https://yourloff.github.io/paralax/ "for INovaclub") - INovaclub.paralax background
+
+[Форма авторизации](https://yourloff.github.io/form-register/ "Tabs") - Вёрстка формы авторизации
