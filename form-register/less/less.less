@@ -1,0 +1,150 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: #282828;
+}
+
+.container{
+    font-size: 2rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.tabs{
+    background: black url(../img/Layer.png) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.back{
+    position: relative;
+    width: 100%;
+}
+
+.tabs-form{
+    .reg{
+        position: absolute;
+        top: 14%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 464px;
+    }
+
+    li.nav-item{
+        margin: 0 0.8rem;
+    }
+    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+        background-color: #03a5da;
+        color: white;
+        border: 1rem solid #03a5da;
+        outline: none;
+        font-size: 2.4rem;
+        text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.75);
+    }
+
+   .nav-tabs{
+        padding: 2rem 0 0 0;
+        margin-left: 2rem;
+        border: none;
+    .nav-link{
+            font-size: 2.4rem;
+            border: 1rem solid white;
+            color: rgb(8, 8, 8);
+            line-height: 0.917;
+            background-color: rgb(255, 255, 255);
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+   }
+    .tab-pane{
+        box-sizing: border-box;
+        width: 100%;
+        background-color: black;
+        border: 2.4rem solid #03a5da;
+        .form{
+            position: relative;
+            .button{
+                position: absolute;
+                bottom: 1rem;
+                right: -3.5rem;
+                outline: none;
+                border: none;
+                font-size: 2.4rem;
+                color: rgb(255, 255, 255);
+                background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(207,35,3) 0%, rgb(127,5,1) 100%);
+                background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(207,35,3) 0%, rgb(127,5,1) 100%);
+                background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(207,35,3) 0%, rgb(127,5,1) 100%);
+                width: 128px;
+                height: 41px;
+                }
+
+            display: flex;
+            flex-direction: column;
+            padding: 7rem 4.3rem 4rem 7rem;
+            
+            label, a{
+                margin-left: 2.5rem;
+            }
+
+            label{
+                margin-right: 1rem;
+                font-size: 1.5rem;
+                color: rgb(111, 109, 109);
+
+                input[type="checkbox"]{
+                    margin-right: 1rem;
+            }
+        }
+
+            a{
+                text-decoration: none;
+                font-size: 1.5rem;
+                color: rgb(197, 31, 3);
+                margin-bottom: 6rem;
+            }
+        }
+    }
+
+    input {
+        &[type="text"]{
+            margin-bottom: 3rem;
+            padding: 2rem 0 2rem 2.5rem;
+        }
+        background: black url("../img/input.png") no-repeat left;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        color: white;
+      }
+}
+
+@media screen and (max-width: 335px) {
+    .tabs-form .nav-tabs .nav-link, .tabs-form .nav-tabs .nav-link.active, .tabs-form .nav-tabs .nav-item.show .nav-link{
+        font-size: 1.5rem;
+    }
+    .tabs-form input[type="text"]{
+        padding: 1rem;
+        margin-bottom: 2rem;
+        font-size: 1.3rem;
+    }
+    .tabs-form .tab-pane .form .button{
+        font-size: 1.5rem;
+        width: 8.5rem;
+    }
+
+    .tabs-form .tab-pane .form a{
+        margin-bottom: 1.5rem;
+    }
+
+    .tabs-form .tab-pane .form label, .tabs-form .tab-pane .form a{
+        font-size: 1.3rem;
+    }
+
+    .tabs-form .tab-pane .form{
+        padding: 2rem;
+    }
+}

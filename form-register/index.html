@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="tabs">
+        <div class="container">
+
+                <div class="back">
+                    <div class="tabs-form">
+
+                            <ul class="nav nav-tabs" id="myTab">
+                                <li class="nav-item">
+                                    <button class="nav-link active" id="signup-tab" data-bs-toggle="tab"
+                                        data-bs-target="#signup" type="button" aria-controls="signup"
+                                        aria-selected="true">Вход</button>
+                                </li>
+
+                                <li class="nav-item">
+                                    <button class="nav-link" id="signin-tab" data-bs-toggle="tab"
+                                        data-bs-target="#signin" type="button" aria-controls="signin"
+                                        aria-selected="false" disabled >Регистрация</button>
+                                </li>
+                            </ul>
+
+                        <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane show active" id="signup">
+                                    <form class="form" action="">
+                                        <input type="text" placeholder="Ваше имя">
+                                        <input type="text" placeholder="Пароль">
+                                        <a href="#">Забыли пароль?</a>
+                                        <label><input type="checkbox" />напомнить мне</label>
+                                        <button class="button">Войти</button>
+                                    </form>
+                            </div>
+                            <div class="tab-pane reg" id="signin"></div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+    <script src="script/jquery.js"></script>
+    <script src="script/bootstrap.js"></script>
+</body>
+
+</html>

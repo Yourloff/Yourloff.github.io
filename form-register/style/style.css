@@ -1,0 +1,136 @@
+html {
+  font-size: 10px;
+}
+body {
+  background-color: #282828;
+}
+.container {
+  font-size: 2rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.tabs {
+  background: #000000 url(../img/Layer.png) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+.back {
+  position: relative;
+  width: 100%;
+}
+.tabs-form .reg {
+  position: absolute;
+  top: 14%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 464px;
+}
+.tabs-form li.nav-item {
+  margin: 0 0.8rem;
+}
+.tabs-form .nav-tabs .nav-link.active,
+.tabs-form .nav-tabs .nav-item.show .nav-link {
+  background-color: #03a5da;
+  color: white;
+  border: 1rem solid #03a5da;
+  outline: none;
+  font-size: 2.4rem;
+  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.75);
+}
+.tabs-form .nav-tabs {
+  padding: 2rem 0 0 0;
+  margin-left: 2rem;
+  border: none;
+}
+.tabs-form .nav-tabs .nav-link {
+  font-size: 2.4rem;
+  border: 1rem solid white;
+  color: #080808;
+  line-height: 0.917;
+  background-color: #ffffff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.tabs-form .tab-pane {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: black;
+  border: 2.4rem solid #03a5da;
+}
+.tabs-form .tab-pane .form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 7rem 4.3rem 4rem 7rem;
+}
+.tabs-form .tab-pane .form .button {
+  position: absolute;
+  bottom: 1rem;
+  right: -3.5rem;
+  outline: none;
+  border: none;
+  font-size: 2.4rem;
+  color: #ffffff;
+  background-image: -moz-radial-gradient(50% 50%, circle closest-side, #cf2303 0%, #7f0501 100%);
+  background-image: -webkit-radial-gradient(50% 50%, circle closest-side, #cf2303 0%, #7f0501 100%);
+  background-image: -ms-radial-gradient(50% 50%, circle closest-side, #cf2303 0%, #7f0501 100%);
+  width: 128px;
+  height: 41px;
+}
+.tabs-form .tab-pane .form label,
+.tabs-form .tab-pane .form a {
+  margin-left: 2.5rem;
+}
+.tabs-form .tab-pane .form label {
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  color: #6f6d6d;
+}
+.tabs-form .tab-pane .form label input[type="checkbox"] {
+  margin-right: 1rem;
+}
+.tabs-form .tab-pane .form a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #c51f03;
+  margin-bottom: 6rem;
+}
+.tabs-form input {
+  background: #000000 url("../img/input.png") no-repeat left;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.tabs-form input[type="text"] {
+  margin-bottom: 3rem;
+  padding: 2rem 0 2rem 2.5rem;
+}
+@media screen and (max-width: 335px) {
+  .tabs-form .nav-tabs .nav-link,
+  .tabs-form .nav-tabs .nav-link.active,
+  .tabs-form .nav-tabs .nav-item.show .nav-link {
+    font-size: 1.5rem;
+  }
+  .tabs-form input[type="text"] {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+  }
+  .tabs-form .tab-pane .form .button {
+    font-size: 1.5rem;
+    width: 8.5rem;
+  }
+  .tabs-form .tab-pane .form a {
+    margin-bottom: 1.5rem;
+  }
+  .tabs-form .tab-pane .form label,
+  .tabs-form .tab-pane .form a {
+    font-size: 1.3rem;
+  }
+  .tabs-form .tab-pane .form {
+    padding: 2rem;
+  }
+}
