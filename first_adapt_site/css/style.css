@@ -44,7 +44,8 @@ body {
 button:focus,
 input:focus,
 a:focus,
-.main-form-control:focus {
+.main-form-control:focus,
+textarea:focus {
   outline: none;
 }
 .button {
@@ -135,6 +136,7 @@ a:focus,
   margin: 2rem 0;
   width: 100%;
   border: 1px solid #dddddd;
+  border-radius: 5px;
   padding: 1.5rem;
   font-size: 1.5rem;
 }
@@ -143,6 +145,7 @@ a:focus,
   transform: translateX(-50%) translateY(-50%);
   padding: 0.5rem;
   font-size: 1.3rem;
+  left: 50%;
   background-color: white;
 }
 .main-form-button {
@@ -232,6 +235,63 @@ section {
   font-family: 'ProximaNovaBold';
   font-size: 3.6rem;
   text-align: center;
+}
+/* Модальные окна */
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup h4,
+.popup p {
+  text-align: center;
+  line-height: 1.3;
+  font-size: 2rem;
+}
+.popup p {
+  font-size: 1.5rem;
+}
+.popup label {
+  background-color: #fcfcfc;
+}
+.popup-content {
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  background-color: #fcfcfc;
+  transform: translate(-50%);
+  padding: 4rem 6rem;
+}
+.popup-form {
+  margin-top: 3rem;
+  padding: 0;
+}
+.popup-form textarea {
+  border: 1px solid #dddddd;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.popup-close {
+  position: absolute;
+  top: -1.5rem;
+  right: -2rem;
+  width: 2rem;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-size: 3rem;
+  color: white;
+}
+.popup-header {
+  font-family: 'ProximaNovaBold';
 }
 @media (max-width: 991px) {
   .main {
