@@ -13,3 +13,5 @@
 [Паралакс эффект](https://yourloff.github.io/paralax/ "for INovaclub") - INovaclub.paralax background
 
 [Форма авторизации](https://yourloff.github.io/form-register/ "Tabs") - Вёрстка формы авторизации
+
+[Аккордион](https://yourloff.github.io/accordion/ "accordion") - Аккордион с вопросами и ответами
