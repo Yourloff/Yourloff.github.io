@@ -1,0 +1,46 @@
+html {
+  font-size: 10px;
+}
+body {
+  background: url(../img/background.png);
+  background-size: 100%;
+}
+.container {
+  font-size: 2rem;
+}
+main {
+  margin-top: 8rem;
+}
+main .block .paragraph {
+  text-align: center;
+  color: #0bbaf0;
+  text-transform: uppercase;
+  line-height: 3rem;
+  margin-bottom: 5rem;
+}
+main .block .paragraph h1 {
+  font-weight: bold;
+  font-size: 3.6rem;
+}
+main .block .paragraph span {
+  font-size: 2.4rem;
+}
+main .block .accordion-item {
+  border-width: 4px;
+  border-color: #dcdcdc;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+main .block .accordion-item .accordion-button {
+  background-color: #0bbaf0;
+  color: white;
+  font-size: 2.3rem;
+  line-height: 1.2;
+  text-align: center;
+}
+main .block .accordion-item .accordion-body {
+  font-size: 2.2rem;
+  color: #535353;
+  line-height: 1.2;
+}
